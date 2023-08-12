@@ -1,5 +1,3 @@
-import { LoginPage } from "./login-1st/page";
-
 export default function Home() {
-  return <LoginPage />;
+  return <p>Projeto feito para testar ui</p>;
 }
