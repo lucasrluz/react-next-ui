@@ -4,7 +4,7 @@ import { EmailInput } from "./components/emailInput";
 import { ForgetPasswordAndCreateAccountLink } from "./components/forgetPasswordAndCreateAccountLink";
 import { PasswordInput } from "./components/passwordInut";
 
-export function LoginPage() {
+export default function LoginPage() {
   return (
     <main className="flex h-screen items-center justify-center bg-white">
       <div className="flex flex-col items-center rounded-md border border-slate-100 p-5 pt-3 shadow-2xl">
